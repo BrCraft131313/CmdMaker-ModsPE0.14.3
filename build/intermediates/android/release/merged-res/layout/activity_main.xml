@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/commandNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="اسم الأمر (Command Name - e.g. gift)" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الرسالة التي تظهر في الشات (Message)" />
+
+    <EditText
+        android:id="@+id/functionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الدالة (Function)"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/exportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تصدير المود (.js)"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
